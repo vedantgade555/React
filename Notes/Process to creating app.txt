@@ -1,0 +1,79 @@
+PS D:\React\first-react-app> npm install
+
+added 152 packages, and audited 153 packages in 14s      
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\React\first-react-app>    ls
+
+
+    Directory: D:\React\first-react-app
+
+
+Mode                 LastWriteTime         Length Name   
+----                 -------------         ------ ----   
+d-----        17-08-2025     18:34                node_m 
+                                                  odules 
+d-----        17-08-2025     18:28                public 
+d-----        17-08-2025     18:28                src    
+-a----        17-08-2025     18:22            253 .gitig
+                                                  nore   
+-a----        17-08-2025     18:22            763 eslint 
+                                                  .confi 
+                                                  g.js   
+-a----        17-08-2025     18:22            361 index. 
+                                                  html   
+-a----        17-08-2025     18:34          95651 packag 
+                                                  e-lock 
+                                                  .json  
+-a----        17-08-2025     18:28            612 packag 
+                                                  e.json 
+-a----        17-08-2025     18:22            856 README 
+                                                  .md    
+-a----        17-08-2025     18:22            161 vite.c 
+                                                  onfig. 
+                                                  js     
+
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Arnav Gade>npm create vite@latest
+Need to install the following packages:
+create-vite@7.1.1
+Ok to proceed? (y) y
+
+
+> npx
+> create-vite
+
+|
+o  Project name:
+|  first-react-app
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Scaffolding project in C:\Users\Arnav Gade\first-react-app...
+|
+—  Done. Now run:
+
+  cd first-react-app
+  npm install
+  npm run dev
+
+PS D:\React\first-react-app>  npm run dev
+
+> first-react-app@0.0.0 dev
+> vite
+
+
+  VITE v7.1.2  ready in 355 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
