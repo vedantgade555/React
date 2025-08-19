@@ -1,0 +1,8 @@
+run a npm commands and create a project 
+
+after that run the command      npm i bootstrap@5.3.7
+This command will taken from bootstrap website
+
+after that 
+import "bootstrap/dist/css/bootstrap.min.css"
+import above command on the main.jsx file

@@ -75,5 +75,79 @@ PS D:\React\first-react-app>  npm run dev
   VITE v7.1.2  ready in 355 ms
 
   ➜  Local:   http://localhost:5173/
+
+
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
+
+  the above ip address is used to open the document 
+  copy this ip address and paste it on address bar 
+
+  first write all code in App.jsx
+
+
+
+
+
+
+
+
+
+
+
+  PS D:\React\Projects> npm create vite@latest
+
+> npx
+> create-vite
+
+│
+◇  Project name:
+│  TodoAppVersionOne
+│
+◇  Package name:
+│  todov1
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in D:\React\Projects\TodoAppVersionOne...
+│
+└  Done. Now run:
+
+  cd TodoAppVersionOne
+  npm install
+  npm run dev
+
+PS D:\React\Projects> cd
+PS D:\React\Projects> cd TodoAppVersionOne
+PS D:\React\Projects\TodoAppVersionOne> npm install
+
+added 152 packages, and audited 153 packages in 14s      
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\React\Projects\TodoAppVersionOne> npm run dev
+
+> todov1@0.0.0 dev
+> vite
+
+
+  VITE v7.1.2  ready in 368 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+PS D:\React\Projects\TodoAppVersionOne> npm i bootstrap@5.3.7
+
+added 2 packages, and audited 155 packages in 3s
+
+35 packages are looking for funding
+  run `npm fund` for details       
+
+found 0 vulnerabilities
+PS D:\React\Projects\TodoAppVersionOne>
