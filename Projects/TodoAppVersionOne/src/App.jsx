@@ -10,8 +10,11 @@ function App() {
       <div class="container text-container">
         
         <AddTodo></AddTodo>
-        <TodoItem1></TodoItem1>
-        <TodoItem2></TodoItem2>
+        <div className="items-container">
+          <TodoItem1></TodoItem1>
+          <TodoItem2></TodoItem2>
+        </div>
+       
         
       </div>
     </center>
