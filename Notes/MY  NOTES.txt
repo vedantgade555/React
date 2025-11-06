@@ -1,2 +1,19 @@
+18. FRAGMENTS
+
 used to avoid innecessary div tags
 we need to import:  [ import { StrictMode } from 'react' ] statement
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19. MAP
+
+-----------------------------------------
+
+22.CSS Module
+
+This is used to give an css to our component file
+when two components have same style it it will crash so css module provides unique id to our class of css
+
+exytension is :  .module.css
+import like: 	 import styles from '../src/item.css';
+

@@ -1,8 +1,11 @@
-const Item = ()=>{
-    return( 
-    <li key={index} className="list-group-item">
-          {item}
-    </li>)
-}
-        
+import styles from '../src/item.module.css';
+
+const Item = ({ foodItem }) => {
+  return (
+    <li className={`list-group-item ${styles['kg-item']}`}>
+      <span className={styles['kg-span']}>{foodItem}</span>
+    </li>
+  );
+};
+
 export default Item;
