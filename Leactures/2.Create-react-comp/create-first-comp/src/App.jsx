@@ -10,7 +10,7 @@ function App(){
     <Hello></Hello>
     <Random></Random>
     <Random></Random>
-    <Random></Random>
+    <Random></Rand om>
     <Random></Random>
     <Random></Random>
   </div>

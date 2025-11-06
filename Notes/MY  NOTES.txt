@@ -1,0 +1,2 @@
+used to avoid innecessary div tags
+we need to import:  [ import { StrictMode } from 'react' ] statement

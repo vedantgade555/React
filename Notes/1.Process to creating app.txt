@@ -39,6 +39,14 @@ d-----        17-08-2025     18:28                src
 Microsoft Windows [Version 10.0.26100.4946]
 (c) Microsoft Corporation. All rights reserved.
 
+
+
+----------------------------------------------------------------------------------------------------------
+
+Main Creation
+
+
+
 C:\Users\Arnav Gade>npm create vite@latest
 Need to install the following packages:
 create-vite@7.1.1
