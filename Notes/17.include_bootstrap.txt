@@ -6,3 +6,42 @@ This command will taken from bootstrap website
 after that 
 import "bootstrap/dist/css/bootstrap.min.css"
 import above command on the main.jsx file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,4 +16,35 @@ when two components have same style it it will crash so css module provides uniq
 
 exytension is :  .module.css
 import like: 	 import styles from '../src/item.css';
+give name to a class:   className="list-group-item {$`{styles.kg-item}`}"
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+26. Managing Stat
+
+we are used to save a data 
+
+first we are import like : import { useState } from 'react'
+useState is a hook
+
+  let textState = useState(); 
+
+they are return array
+
+  let textStateValue = textState[0];
+  let setTextState = textState[1];  
+
+
+
+*** hooks 
 
