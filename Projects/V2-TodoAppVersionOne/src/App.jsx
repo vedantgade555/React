@@ -29,7 +29,7 @@ function App() {
     const newTodoItems = [...todoItems, {
       name: itemName,  dueDate:itemDueDate}]; 
       setToDoItems(newTodoItems);
-  }
+  }   
 
   const handleDeleteItem = (todoName) => {
     // console.log("Delete Item:", todoName);

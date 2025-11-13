@@ -1,0 +1,12 @@
+input{
+  width: 100%;
+}
+
+.vgrow{
+  margin: 10px 5px;
+}
+
+.vgbtn{
+  min-width: 80px;
+  /* padding-top: 10px; */
+}
