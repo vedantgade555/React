@@ -2,7 +2,6 @@ import { Car } from "lucide-react";
 import "./App.css";
 // import {Bookmark} from 'lucide-react'
 import Card from "./components/Card";
-import User from "./components/User";
 
 function App() {
   const jobs = [
@@ -109,12 +108,15 @@ function App() {
   ];
 
   // console.log(jobs)
+  // we pass idx bcoz this will be a key
 
   return (
     <>
       <div className="parent">
-       {jobs.map(function(elem){
-         return <Card company={elem.companyName}></Card>
+       {jobs.map(function(elem,idx){
+         return <div key={idx}>
+          <Card companyName={elem.companyName} post={elem.post} tag1={elem.tag1} tag2={elem.tag2} brandLogo={elem.brandLogo} datePosted={elem.datePosted} pay={elem.pay} location={elem.location}></Card>
+         </div>
        })}
       </div>
     </>
