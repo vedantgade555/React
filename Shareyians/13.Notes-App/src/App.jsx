@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { X } from "lucide-react";
 const App = () => {
   const [title, settitle] = useState("");
   const [details, setDetails] = useState("");
@@ -20,8 +21,15 @@ const App = () => {
     setDetails("");
   };
 
+  const deleteNote = (idx)=>{
+    const copyTask = [...task]
+    
+    copyTask.splice(idx,1)
+    setTask(copyTask)
+  }
+
   return (
-    <div className="h-screen lg:flex bg-black text-white p-10">
+    <div className="overflow-auto h-screen lg:flex bg-black text-white p-10">
       <form
         className="flex flex-col items-start  p-10 lg:w-1/2 gap-3"
         onSubmit={(e) => {
@@ -52,7 +60,6 @@ const App = () => {
         <button className="bg-white text-black px-5 py-2 rounded  font-medium w-full active:scale-95">
           Add Notes
         </button>
-        {/* <img src="https://static.vecteezy.com/system/resources/thumbnails/049/658/509/small_2x/vintage-note-book-png.png" alt="img" className="h-50" /> */}
       </form>
 
       <div className="lg:w-1/2 p-4 text-white lg:border-l rounded">
@@ -63,12 +70,18 @@ const App = () => {
             return (
               <div
                 key={idx}
-                className="h-52 w-40 rounded-2xl text-black p-6 bg-cover bg-center bg-no-repeat bg-[url('https://static.vecteezy.com/system/resources/thumbnails/049/658/509/small_2x/vintage-note-book-png.png')]"
+                className="flex justify-between flex-col relative h-52 w-40 rounded-2xl text-black p-6 bg-cover bg-center bg-no-repeat bg-[url('https://static.vecteezy.com/system/resources/thumbnails/049/658/509/small_2x/vintage-note-book-png.png')]"
               >
-                <h3 className="leading-tight font-bold text-xl">
-                  {elem.title}
-                </h3>
-                <p className="text-gray-500">{elem.details}</p>
+                {/* <h2 className="absolute top-8 right-3 bg-red-500 rounded-full"><X size={16} strokeWidth={3} /></h2> */}
+                <div>
+                  <h3 className="leading-tight font-bold text-xl">
+                    {elem.title}
+                  </h3>
+                  <p className="text-gray-500">{elem.details}</p>
+                </div>
+                <button onClick={()=>{
+                  deleteNote(idx)
+                }} className="w-full bg-red-500 text-white py-1 text-xs rounded font-bold cursor-pointer active:scale-95">Delete</button>
               </div>
             );
           })}
