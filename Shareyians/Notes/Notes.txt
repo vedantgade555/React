@@ -1,0 +1,14 @@
+in api there are 3 methods
+1.get: this will onlu use to get the data
+
+2.post: post will use when we want to send data to 
+ex: axios.post('https://picsum.photos/v2/list?page=2&limit=100',{username:'vedant',password:'vedant@555'}) 
+
+3. axios.patch() 
+used for update like edit password
+ex. 
+axios.patch()
+
+4. axios.delete()
+
+want to learn more learn axios website
