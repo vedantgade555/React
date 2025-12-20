@@ -12,3 +12,54 @@ axios.patch()
 4. axios.delete()
 
 want to learn more learn axios website
+
+
+=========================================================
+
+for achieve routing in React we are using react-router-dom liberary
+command for install: 
+npm i react-router-dom
+we are use mostly BrowserRouter
+ex. 
+sheryans.com= /
+sheryans.com/courses = /courses
+sheryans.com/about = /about
+
+2. HashRouter
+
+3. MemoryRoute: stores all history in memory
+
+see all in 
+https://reactrouter.com/api/declarative-routers/BrowserRouter
+
+remove stricket mode  from main.jsx
+ex. 
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import {BrowserRouter} from 'react-router-dom'
+
+createRoot(document.getElementById('root')).render(
+    <BrowserRouter>
+      <App></App>
+    </BrowserRouter>
+)
+so we are able to perform routing
+
+make a pages folder and create .jsx files in it
+
+Ther are three types of routes 
+1. Route
+2. Nested Route
+3. Dynamic Route
+
+<Route path="/courses/:id" element={<CourseDetail></CourseDetail>}></Route>
+this is an example of dynamic route
+
+const CourseDetails = () => {
+    const params = useParams()
+    console.log(params.courseId)
+
+} use this hook with dynamic routing

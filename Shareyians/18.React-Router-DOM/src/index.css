@@ -1,0 +1,29 @@
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    white-space: no;
+    text-decoration: underline;
+}
+
+.nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(18, 138, 217);
+
+}
+body{
+    background-color: black;
+}
+*{
+    color: white;
+}
+.nav div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
