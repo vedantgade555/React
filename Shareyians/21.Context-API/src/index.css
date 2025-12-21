@@ -1,0 +1,36 @@
+
+.nav{
+  
+  /* color: white; */
+}
+
+
+
+.light{
+  background-color: lightseagreen;
+  display:flex;
+  background-color: lightseagreen;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  color: white;
+  
+}
+
+.dark{
+  background-color: darkslategray;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  color: white;
+  body{
+    background-color: black;
+  }
+}
+
+.nav2{
+  display: flex;
+  gap: 30px;
+
+}
